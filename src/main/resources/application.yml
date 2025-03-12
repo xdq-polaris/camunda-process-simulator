@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: camunda-process-simulator
+#  datasource:
+#    url: jdbc:h2:mem:camunda
+#    username: sa
+#    password: sa
+#    driver-class-name: org.h2.Driver
+camunda:
+  bpm:
+#    database:
+#      schema-update: true
+    auto-deployment-enabled: false
+    eventing:
+      skippable: false
+      task: true
